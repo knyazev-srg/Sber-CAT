@@ -1,0 +1,14 @@
+.img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 195px;
+  height: 336px;
+  z-index: -1;
+}
+
+@media (max-width: 460px) {
+  .img {
+    display: none;
+  }
+}
